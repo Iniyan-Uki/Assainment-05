@@ -6,11 +6,11 @@ html {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(165, 97, 129, 0.4), rgba(0, 0, 0, 0.4)), url("/Assets/img/4.webp");
-    height: 100%;
+    background-image: linear-gradient(rgba(92, 5, 27, 0.404), rgba(141, 23, 53, 0.26)), url("/Assets/img/refreshing-hibiscus-ice-tea-clear-glass-container.jpg");
+    height: 100%;width:100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     position: relative;
     
 
@@ -19,13 +19,13 @@ html {
 {
     z-index: 1;
 }
-.hero-text {
+.hero-text {font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    transform: translate(-115%,-40%);
+    ;
 }
 
 .hero-text button {
