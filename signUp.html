@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Sign Up</title>
 </head>
 
 <body>
+<button class="bg-rose-900 text-white rounded-3xl px-4 py-2"><a href="./index.html">Home</a></button>
+
+
+
+    <form id="signupForm" class="rounded-3xl shadow-xl mx-auto bg-rose-900 text-center text-white w-130 h-110">
+        <h1 class="text-4xl pb-8">Sign Up </h1>
+
+        <label class="mx-10 ">Name</label><br>
+        <input id="name" type="text" placeholder="Enter Your Name " name="uname"><br><br>
+
+        <label class="">Email</label><br>
+        <input type="text" id="email" placeholder="Enter Your Mail" name="email"><br><br>
+
+        <label>Password</label><br>
+        <input type="password" id="password" placeholder="Enter Your Password" name="pw"><br><br>
+
+        <input class="border-1 rounded-lg px-2 py-2" id="submit" type="submit" value="Sign Up"><br><br>
+         <input class="border-1 rounded-lg px-4 py-2" id="clearData" type="submit" value="Clear"><br>
+
+
+    </form>
+    <p id="savedName"></p>
+
+    <p id="savedEmail"></p>
+
+
     <script src="./script.js"></script>
 </body>
+
 </html>
